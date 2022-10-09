@@ -1,1 +1,1 @@
-cd /tmp
+cari apa ? ga ada apa apa disini
