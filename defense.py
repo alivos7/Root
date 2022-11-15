@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*
 #!/usr/bin/python
 #####################################
-# DEMON KING
+# DEMON ALIVOS FT DEMON KING
 ##############[LIBS]###################
 import requests, re, os, sys, codecs, random               
 from multiprocessing.dummy import Pool                          
@@ -24,13 +24,14 @@ UNDERLINE = '\033[4m'
 END = '\033[0m'
 
 primer ="""
- ______                                         ___  ____    _                   
-|_   _ `.                                      |_  ||_  _|  (_)                  
-  | | `. \ .---.  _ .--..--.   .--.   _ .--.     | |_/ /    __   _ .--.   .--./) 
-  | |  | |/ /__\\[ `.-. .-. |/ .'`\ \[ `.-. |    |  __'.   [  | [ `.-. | / /'`\; 
- _| |_.' /| \__., | | | | | || \__. | | | | |   _| |  \ \_  | |  | | | | \ \._// 
-|______.'  '.__.'[___||__||__]'.__.' [___||__] |____||____|[___][___||__].',__`  
-                                                                        ( ( __)) 
+   _____                                        _ _                
+ |  __ \                                 /\   | (_)               
+ | |  | | ___ _ __ ___   ___  _ __      /  \  | |___   _____  ___ 
+ | |  | |/ _ \ '_ ` _ \ / _ \| '_ \    / /\ \ | | \ \ / / _ \/ __|
+ | |__| |  __/ | | | | | (_) | | | |  / ____ \| | |\ V / (_) \__ \
+ |_____/ \___|_| |_| |_|\___/|_| |_| /_/    \_\_|_| \_/ \___/|___/
+                                                                  
+                                                                  
                                       - Defend Simple
 """
 print(primer)
@@ -38,17 +39,17 @@ def cronwar():
 	while 1:
 		try:
    			lucifer = [
-   				"https://pekerti-aa.lp2mp.unm.ac.id/awaw.php"
+   				"https://ppaa.fisip.ui.ac.id/perkuliahan/upload_mk_dosen_form7.php"
    				 ]
    			for x in lucifer:
    				Agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'}
    				se = requests.session()
    				ktn1 = se.get(x, headers=Agent, verify=False, timeout=10)
    				if ktn1.status_code == 200:
-   					print (GREEN + 'DEFEND ON DEMON KING V3! ..... [' + x + ']' + END)
+   					print (GREEN + 'DEFEND ON ALIVOS V3! ..... [' + x + ']' + END)
    					time.sleep(5)
    				else:
-   					print (RED + 'SORY YOUR DEFEND INVALID  (-) ' + x + END)
+   					print (RED + 'SORRY YOUR DEFEND INVALID  (-) ' + x + END)
    					
 		except Exception as e:
    			pass
